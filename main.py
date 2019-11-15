@@ -11,13 +11,8 @@ def main():
 
         else:
             nums = problem.split("+")
-
-            if len(nums) < 2:
-                print("Invalid format.")
-
-            else:
-                sum = int(nums[0]) + int(nums[1])
-                print(sum)
+            sum = int(nums[0]) + int(nums[1])
+            print(sum)
 
         count -= 1
 
