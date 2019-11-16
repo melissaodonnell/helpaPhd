@@ -6,7 +6,7 @@ def main():
 
         problem = input()
 
-        if problem == "P=NP":
+        if problem.rstrip() == "P=NP":
             print("skipped")
 
         else:
